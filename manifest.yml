@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: kjkw-liberty
+  host: kjkw-liberty
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Text to Speech-qr
